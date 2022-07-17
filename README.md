@@ -1,5 +1,7 @@
-# Raspberry Pi Rice Cooker
-Raspberry Pi-based web application to monitor the state of a rice cooker.
+# Raspberry Pi Rice Cooker 2.0
+Raspberry Pi-based web application to monitor the state of a rice cooker created by Tony DiCola. This version as a few updates of code and minor changes. It really can be used to monitor any device that provides date via simple LED lights. 
+
+NOTE: I have learned so much from Tony DiCola's GitHub examples and videos. It appears he is no longer active here but the work he posted is still relavent and valuabel for beginers! 
 
 <a href="http://imgur.com/m80danV"><img src="http://i.imgur.com/m80danVl.jpg"/></a><br/>
 A photo of the rice cooker connected to the Raspberry Pi.
@@ -11,8 +13,8 @@ Created by Tony DiCola (tony@tonydicola.com)
 
 ## Requirements
 To run the raspberry pi rice cooker code you must have the following setup with your raspberry pi:
-* Python 2.7
-* [Flask](http://flask.pocoo.org/)
+* Python 3.10.x
+* [Flask]((https://flask.palletsprojects.com/en/2.1.x/))
 * [RPi.GPIO](https://pypi.python.org/pypi/RPi.GPIO)
 * Photocell hooked up to pin 18, as per this [Adafruit tutorial](http://learn.adafruit.com/basic-resistor-sensor-reading-on-raspberry-pi/overview)
 
